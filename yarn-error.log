@@ -1,0 +1,89 @@
+Arguments: 
+  /usr/local/Cellar/node/10.7.0/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/bin:/Users/benlozano/Documents/code/go/bin
+
+Yarn version: 
+  1.9.2
+
+Node version: 
+  10.7.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/benlozano/workspace/ember-component-focus/package.json: Unexpected token b in JSON at position 1395
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:92:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:103:13
+
+npm manifest: 
+  {
+    "name": "ember-component-focus",
+    "version": "0.2.3",
+    "description": "An Ember addon for managing focus within components.",
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
+    "scripts": {
+      "build": "ember build",
+      "start": "ember server",
+      "test": "ember try:each"
+    },
+    "repository": "ember-a11y/ember-component-focus",
+    "engines": {
+      "node": ">= 0.10.0"
+    },
+    "author": "Will Hastings <whastings@linkedin.com>",
+    "license": "Apache-2.0",
+    "devDependencies": {
+      "broccoli-asset-rev": "^2.4.2",
+      "ember-ajax": "0.7.1",
+      "ember-cli": "2.5.0",
+      "ember-cli-app-version": "^1.0.0",
+      "ember-cli-dependency-checker": "^1.2.0",
+      "ember-cli-htmlbars": "^1.0.3",
+      "ember-cli-htmlbars-inline-precompile": "^0.3.1",
+      "ember-cli-inject-live-reload": "^1.4.0",
+      "ember-cli-jshint": "^1.0.0",
+      "ember-cli-qunit": "^1.4.0",
+      "ember-cli-release": "0.2.8",
+      "ember-cli-sri": "^2.1.0",
+      "ember-cli-uglify": "^1.2.0",
+      "ember-data": "^2.5.0",
+      "ember-disable-prototype-extensions": "^1.1.0",
+      "ember-export-application-global": "^1.0.5",
+      "ember-load-initializers": "^0.5.1",
+      "ember-resolver": "^2.0.3",
+      "ember-sinon": "^0.5.0",
+      "ember-try": "^0.2.2",
+      "loader.js": "^4.0.1"
+    },
+    "keywords": [
+      "accessibility",
+      "component",
+      "ember-addon",
+      "focus",
+      "tabindex"
+    ],
+    "dependencies": {
+      babel": "^6.6.0"
+    },
+    "ember-addon": {
+      "configPath": "tests/dummy/config",
+      "versionCompatibility": {
+        "ember": ">1.13.0 <=2.5.0"
+      }
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
