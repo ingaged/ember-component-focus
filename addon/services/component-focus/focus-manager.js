@@ -57,6 +57,7 @@ export default Ember.Service.extend({
   },
 
   init() {
+    this._super(...arguments);
     // Don't try to attach events in server side environments.
     if (typeof document === 'undefined') {
       return;
